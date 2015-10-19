@@ -814,20 +814,18 @@
     craftswoman: female
     handyman: male
     craftsman: male
-- type: or
+- type: simple
   considerate:
     - presenter
     - entertainer
   inconsiderate:
     hostess: female
-    host: male
-- type: or
+- type: simple
   considerate:
     - presenters
     - entertainers
   inconsiderate:
     hostesses: female
-    hosts: male
 - type: or
   considerate:
     - artisans
@@ -916,7 +914,6 @@
     papa: male
     father: male
     dad: male
-    pop: male
     daddy: male
 - type: or
   considerate:

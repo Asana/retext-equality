@@ -2378,34 +2378,30 @@ module.exports=[
   },
   {
     "id": 108,
-    "type": "or",
+    "type": "simple",
     "categories": [
-      "female",
-      "male"
+      "female"
     ],
     "considerate": {
       "presenter": "a",
       "entertainer": "a"
     },
     "inconsiderate": {
-      "hostess": "female",
-      "host": "male"
+      "hostess": "female"
     }
   },
   {
     "id": 109,
-    "type": "or",
+    "type": "simple",
     "categories": [
-      "female",
-      "male"
+      "female"
     ],
     "considerate": {
       "presenters": "a",
       "entertainers": "a"
     },
     "inconsiderate": {
-      "hostesses": "female",
-      "hosts": "male"
+      "hostesses": "female"
     }
   },
   {
@@ -2593,7 +2589,6 @@ module.exports=[
       "papa": "male",
       "father": "male",
       "dad": "male",
-      "pop": "male",
       "daddy": "male"
     }
   },
